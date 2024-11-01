@@ -1,20 +1,20 @@
-package com.dch.interview.model.dto.post;
+package com.dch.interview.model.dto.questionBank;
 
 import com.dch.interview.common.PageRequest;
-import java.io.Serializable;
-import java.util.List;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
+import java.io.Serializable;
+
 /**
- * 查询请求
+ * 查询题库请求
  *
  * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+ * @from <a href="https://www.code-nav.cn">编程导航学习圈</a>
  */
 @EqualsAndHashCode(callSuper = true)
 @Data
-public class PostQueryRequest extends PageRequest implements Serializable {
+public class QuestionBankQueryRequest extends PageRequest implements Serializable {
 
     /**
      * id
@@ -37,19 +37,14 @@ public class PostQueryRequest extends PageRequest implements Serializable {
     private String title;
 
     /**
-     * 内容
+     * 描述
      */
-    private String content;
+    private String description;
 
     /**
-     * 标签列表
+     * 图片
      */
-    private List<String> tags;
-
-    /**
-     * 至少有一个标签
-     */
-    private List<String> orTags;
+    private String picture;
 
     /**
      * 创建用户 id
@@ -57,9 +52,9 @@ public class PostQueryRequest extends PageRequest implements Serializable {
     private Long userId;
 
     /**
-     * 收藏用户 id
+     * 是否要关联查询题目列表
      */
-    private Long favourUserId;
+    private boolean needQueryQuestionList;
 
     private static final long serialVersionUID = 1L;
 }

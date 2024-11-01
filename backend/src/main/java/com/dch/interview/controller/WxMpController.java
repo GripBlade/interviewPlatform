@@ -28,7 +28,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author henryDai
  * @from <a href="https://yupi.icu">编程导航知识星球</a>
  **/
-@RestController
+//@RestController
 @RequestMapping("/")
 @Slf4j
 public class WxMpController {

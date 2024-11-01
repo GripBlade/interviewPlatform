@@ -57,7 +57,7 @@ public class QuestionServiceImpl extends ServiceImpl<QuestionMapper, Question> i
     @Override
     public void validQuestion(Question question, boolean add) {
         ThrowUtils.throwIf(question == null, ErrorCode.PARAMS_ERROR);
-        // todo 从对象中取值
+        // todo 从对象中取 值
         String title = question.getTitle();
         String content = question.getContent();
         // 创建数据时，参数不能为空

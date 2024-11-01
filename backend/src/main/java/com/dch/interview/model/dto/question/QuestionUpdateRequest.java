@@ -1,17 +1,18 @@
-package com.dch.interview.model.dto.post;
+package com.dch.interview.model.dto.question;
+
+import lombok.Data;
 
 import java.io.Serializable;
 import java.util.List;
-import lombok.Data;
 
 /**
- * 编辑请求
+ * 更新题目请求
  *
  * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+ * @from <a href="https://www.code-nav.cn">编程导航学习圈</a>
  */
 @Data
-public class PostEditRequest implements Serializable {
+public class QuestionUpdateRequest implements Serializable {
 
     /**
      * id
@@ -32,6 +33,11 @@ public class PostEditRequest implements Serializable {
      * 标签列表
      */
     private List<String> tags;
+
+    /**
+     * 推荐答案
+     */
+    private String answer;
 
     private static final long serialVersionUID = 1L;
 }

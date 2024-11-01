@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="277dd386-8024-45bd-bd9f-b4e953f01ab9" name="Changes" comment="project init">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/mapper/QuestionBankMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/mapper/QuestionBankQuestionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/mapper/QuestionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/question/QuestionAddRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/question/QuestionEditRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/question/QuestionQueryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/question/QuestionUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/questionBank/QuestionBankAddRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/questionBank/QuestionBankEditRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/questionBank/QuestionBankQueryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/questionBank/QuestionBankUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/questionBankQuestion/QuestionBankQuestionAddRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/questionBankQuestion/QuestionBankQuestionQueryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/questionBankQuestion/QuestionBankQuestionRemoveRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/questionBankQuestion/QuestionBankQuestionUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/entity/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/entity/QuestionBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/entity/QuestionBankQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/vo/QuestionBankQuestionVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/vo/QuestionBankVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/vo/QuestionVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/mapper/QuestionBankMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/mapper/QuestionBankQuestionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/mapper/QuestionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/controller/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/controller/PostFavourController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/controller/PostFavourController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/controller/PostThumbController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/controller/PostThumbController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/controller/WxMpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/controller/WxMpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/file/UploadFileRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/file/UploadFileRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/post/PostAddRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/post/PostAddRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/post/PostEditRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/post/PostEditRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/post/PostEsDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/post/PostEsDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/post/PostQueryRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/post/PostQueryRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/post/PostUpdateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/post/PostUpdateRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/postfavour/PostFavourAddRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/postfavour/PostFavourAddRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/postfavour/PostFavourQueryRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/postfavour/PostFavourQueryRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/postthumb/PostThumbAddRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/postthumb/PostThumbAddRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/user/UserAddRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/user/UserAddRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/user/UserLoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/user/UserLoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/user/UserQueryRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/user/UserQueryRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/user/UserRegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/user/UserRegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/user/UserUpdateMyRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/user/UserUpdateMyRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/user/UserUpdateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/dto/user/UserUpdateRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/entity/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/entity/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/entity/PostFavour.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/entity/PostFavour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/entity/PostThumb.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/entity/PostThumb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/enums/FileUploadBizEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/enums/FileUploadBizEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/enums/UserRoleEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/enums/UserRoleEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/vo/LoginUserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/vo/LoginUserVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/vo/PostVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/vo/PostVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/vo/UserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/model/vo/UserVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/service/impl/QuestionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/dch/interview/service/impl/QuestionServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GripBlade&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GripBlade/interviewPlatform.git&quot;,
+    &quot;accountId&quot;: &quot;666d077a-3d0b-422f-a030-f4fde76691b1&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2oCun9AArXTvdD5QBhAZ94S7SHM" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/daizong/Downloads/my_journey/learn/coding/java/project/InterviewPlatform/temp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/temp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/sql" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="interviewPlatform" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="interviewPlatform" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="277dd386-8024-45bd-bd9f-b4e953f01ab9" name="Changes" comment="" />
+      <created>1730386042989</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730386042989</updated>
+      <workItem from="1730386043861" duration="1596000" />
+      <workItem from="1730433066535" duration="39000" />
+      <workItem from="1730433904703" duration="10000" />
+      <workItem from="1730433932629" duration="100000" />
+      <workItem from="1730434035029" duration="242000" />
+      <workItem from="1730434281920" duration="41000" />
+      <workItem from="1730434324949" duration="34000" />
+      <workItem from="1730459192005" duration="17000" />
+    </task>
+    <task id="LOCAL-00001" summary="project init">
+      <option name="closed" value="true" />
+      <created>1730434253835</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730434253835</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="project init" />
+    <option name="LAST_COMMIT_MESSAGE" value="project init" />
+  </component>
+</project>
